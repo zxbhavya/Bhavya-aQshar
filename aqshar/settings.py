@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-_kdki0&$35q=$&ch@%as4fk3hy7&+)i$m04e6q3cnb^gd)p3te
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.vercel.app']
 LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
