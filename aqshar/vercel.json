@@ -68,4 +68,10 @@
       "name": "admin"
     }
   ]
+  "rewrites": [
+    { 
+      "source": "/(.*)", 
+      "destination": "/" 
+    }
+  ]
 }
