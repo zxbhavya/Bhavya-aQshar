@@ -1,14 +1,12 @@
 {
-  "builds": [
-    {
-      "src": "aqshar/wsgi.py",
-      "use": "@vercel/python",
-      "config": {
-        "maxLambdaSize": "15mb",
-        "runtime": "python3.9"
-      }
+  "builds": [{
+    "src": "aqshar/wsgi.py",
+    "use": "@vercel/python",
+    "config": {
+      "maxLambdaSize": "15mb",
+      "runtime": "python3.9"
     }
-  ],
+  }],
   "routes": [
     {
       "src": "/api/(.*)",
@@ -16,47 +14,58 @@
     },
     {
       "src": "/",
-      "dest": "http://aqshar.vercel.app/"
+      "dest": "http://aqshar.vercel.app/",
+      "name": "index"
     },
     {
       "src": "/chat/(.*)",
-      "dest": "http://aqshar.vercel.app/chat/$1"
+      "dest": "http://aqshar.vercel.app/chat/$1",
+      "name": "chat"
     },
     {
       "src": "/login/(.*)",
-      "dest": "http://aqshar.vercel.app/login/$1"
+      "dest": "http://aqshar.vercel.app/login/$1",
+      "name": "login"
     },
     {
       "src": "/catalog/(.*)",
-      "dest": "http://aqshar.vercel.app/catalog/$1"
+      "dest": "http://aqshar.vercel.app/catalog/$1",
+      "name": "catalog"
     },
     {
       "src": "/signup/(.*)",
-      "dest": "http://aqshar.vercel.app/signup/$1"
+      "dest": "http://aqshar.vercel.app/signup/$1",
+      "name": "signup"
     },
     {
       "src": "/checkout/(.*)",
-      "dest": "http://aqshar.vercel.app/checkout/$1"
+      "dest": "http://aqshar.vercel.app/checkout/$1",
+      "name": "checkout"
     },
     {
       "src": "/donate/(.*)",
-      "dest": "http://aqshar.vercel.app/donate/$1"
+      "dest": "http://aqshar.vercel.app/donate/$1",
+      "name": "donate"
     },
     {
       "src": "/sell/(.*)",
-      "dest": "http://aqshar.vercel.app/sell/$1"
+      "dest": "http://aqshar.vercel.app/sell/$1",
+      "name": "sell"
     },
     {
       "src": "/account/(.*)",
-      "dest": "http://aqshar.vercel.app/account/$1"
+      "dest": "http://aqshar.vercel.app/account/$1",
+      "name": "account"
     },
     {
       "src": "/orders/(.*)",
-      "dest": "http://aqshar.vercel.app/orders/$1"
+      "dest": "http://aqshar.vercel.app/orders/$1",
+      "name": "orders"
     },
     {
       "src": "/admin/(.*)",
-      "dest": "http://aqshar.vercel.app/admin/$1"
+      "dest": "http://aqshar.vercel.app/admin/$1",
+      "name": "admin"
     }
   ]
 }
