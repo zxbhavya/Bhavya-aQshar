@@ -13,8 +13,48 @@
       "dest": "http://aqshar.vercel.app/api/$1"
     },
     {
-      "src": "/(.*)",
-      "dest": "http://aqshar.vercel.app/$1"
+      "src": "/",
+      "dest": "http://aqshar.vercel.app/"
+    },
+    {
+      "src": "/chat/(.*)",
+      "dest": "http://aqshar.vercel.app/chat/$1"
+    },
+    {
+      "src": "/login/(.*)",
+      "dest": "http://aqshar.vercel.app/login/$1"
+    },
+    {
+      "src": "/catalog/(.*)",
+      "dest": "http://aqshar.vercel.app/catalog/$1"
+    },
+    {
+      "src": "/signup/(.*)",
+      "dest": "http://aqshar.vercel.app/signup/$1"
+    },
+    {
+      "src": "/checkout/(.*)",
+      "dest": "http://aqshar.vercel.app/checkout/$1"
+    },
+    {
+      "src": "/donate/(.*)",
+      "dest": "http://aqshar.vercel.app/donate/$1"
+    },
+    {
+      "src": "/sell/(.*)",
+      "dest": "http://aqshar.vercel.app/sell/$1"
+    },
+    {
+      "src": "/account/(.*)",
+      "dest": "http://aqshar.vercel.app/account/$1"
+    },
+    {
+      "src": "/orders/(.*)",
+      "dest": "http://aqshar.vercel.app/orders/$1"
+    },
+    {
+      "src": "/admin/(.*)",
+      "dest": "http://aqshar.vercel.app/admin/$1"
     }
   ]
 }
