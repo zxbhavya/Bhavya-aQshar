@@ -1,13 +1,20 @@
 {
-    "builds": [{
-        "src": "aqshar/wsgi.py",
-        "use": "@vercel/python",
-        "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
-    }],
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "aqshar/wsgi.py"
-        }
-    ]
+  "builds": [{
+    "src": "aqshar/wsgi.py",
+    "use": "@vercel/python",
+    "config": {
+      "maxLambdaSize": "15mb",
+      "runtime": "python3.9"
+    }
+  }],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "http://aqshar.vercel.app/api/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "http://aqshar.vercel.app/$1"
+    }
+  ]
 }
