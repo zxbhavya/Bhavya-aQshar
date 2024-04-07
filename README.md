@@ -1,5 +1,7 @@
-<img width="1440" alt="cart" src="https://github.com/sanskritividushi/aQshar/assets/118161229/b5885cc9-4214-4c18-ad11-79eb352f8577"><img width="1440" alt="homepage goals" src="https://github.com/sanskritividushi/aQshar/assets/118161229/932fd067-fd64-4b24-afad-c10e408da909">aक्षर
+**aक्षर**
 Where every child finds their story.
+
+<img width="1440" alt="cart" src="https://github.com/sanskritividushi/aQshar/assets/118161229/b5885cc9-4214-4c18-ad11-79eb352f8577"><img width="1440" alt="homepage goals" src="https://github.com/sanskritividushi/aQshar/assets/118161229/932fd067-fd64-4b24-afad-c10e408da909">
 ![aqsharlogo](https://github.com/sanskritividushi/aQshar/assets/118161229/63f29df1-21ff-4bfd-aed2-3c6e04ee8978)
 ![cover](https://github.com/sanskritividushi/aQshar/assets/118161229/7a8456d5-6170-4993-8c6c-890f9ddd5c41)
 ![Uploading homepage goals.png…]()
