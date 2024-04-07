@@ -74,7 +74,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "aqshar.wsgi.application"
+WSGI_APPLICATION = "aqshar.wsgi.application" , "vercel_app.wsgi.app"
 
 
 # Database
